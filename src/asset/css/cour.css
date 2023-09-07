@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Cour{
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Title p{
+    color: #fff;
+    font-size: 80px;
+    font-weight: 700;
+    margin-top: 70px;
+}
+.ListCourse{
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 30px 25px;
+    border-radius: 30px 30px !important;
+}
+.img-top{
+    max-height: 204px !important;
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+}
+.nameCour{
+    color: #0D6EFD;
+    font-weight: 700;
+}
+.flex-teach{
+    display: flex;
+    justify-content: space-between;
+}
+.btn-view{
+    font-size: 20px;
+    font-weight: 700;
+}
+.teacher{
+    display: flex;
+}
+.p1-teacher{
+    color: gold;
+    font-size:large;
+    font-weight: 700;
+}
+.p2-teacher{
+    padding-left: 15px;
+    font-size: large;
+    color: red;
+}
+.descrip{
+    font-size: 20px;
+    opacity: 0.9;
+}
+.body-card{
+    padding: 10px;
+}
+@media (min-width: 740px) and (max-width: 1023px){
+    .nameCour{
+        font-size: 20px;
+    }
+    .flex-teach{
+        display: flex;
+        flex-direction: column;
+    }
+    .flex-teach p{
+        margin: 0 !important;
+    }
+    .btn-view{
+        margin-top: 10px;
+        display: flex;
+        justify-content: center;
+    }
+}
+@media screen and (max-width: 740px) {
+    .Title p{
+        font-size: 35px;
+        margin-top: 30px;
+    }
+    p{
+        margin-bottom: 0 !important;
+    }
+    .nameCour{
+        font-size: 20px;
+        padding-top: 10px;
+    }
+    .flex-teach{
+        display: flex;
+        flex-direction: column;
+    }
+    .btn-view{
+        display: flex;
+        justify-content: center;
+    }
+}

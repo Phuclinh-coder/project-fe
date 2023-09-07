@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container-new2 {
+  margin-top: 30px;
+  // padding: 0 80px;
+
+  .header-new-body {
+    background: #fff;
+    height: 100%;
+    border-radius: 25px;
+    padding: 25px;
+    .slider-news {
+      .slider-card-news {
+        text-decoration: none !important;
+      }
+      .new-card {
+        width: auto !important;
+        height: auto !important;
+        max-width: 450px !important;
+        .new-card-image{
+          height: 205px;
+        }
+        .new-card-body{
+          .new-card-title{
+            color: #000;
+            text-transform: uppercase;
+            font-weight: bold;
+          }
+          .new-card-more{
+            color: #0d6efd;
+            float: right;
+            font-size: 16px;
+          }
+        }
+      }
+    }
+  }
+  .new2-title {
+    text-align: center;
+    color: #fff;
+    font-size: 70px;
+    margin-bottom: 40px;
+  }
+}

@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Contest{
+    width: 100%;
+    height: auto;
+    background-color: transparent;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Title p{
+    color: #fff;
+    font-size: 80px;
+    font-weight: 700;
+    margin-top: 70px;
+}
+.main-contest{
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+    border-radius: 30px 30px !important;
+    
+}
+
+.ListContest{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 30px 25px;
+}
+.img-top{
+    height: 70%;
+    width: 100%;
+    border-radius: 15px 15px 0 0;
+}
+.nameContest{
+    color: crimson;
+    font-weight: 700;
+}
+.flex-time{
+    display: flex;
+    justify-content: space-between;
+}
+.btn-view{
+    font-size: 20px;
+    font-weight: 700;
+
+}
+.time{
+    display: flex;
+}
+.p1-time{
+    color: gold;
+    font-size:large;
+    font-weight: 700;
+}
+.p2-time{
+    padding-left: 15px;
+    font-size: large;
+    color: red;
+}
+.descrip{
+    font-size: 20px;
+    opacity: 0.9;
+}
+.body-card{
+    padding: 10px;
+}
+@media (min-width: 740px) and (max-width: 1023px){
+    .flex-time{
+        display: flex;
+        flex-direction: column;
+        }
+        .p1-time, .p2-time{
+            margin: 0;
+        }
+        .btn-view{
+            margin-top: 0;
+        }
+    }
+@media screen and (max-width: 740px) {
+    .flex-time{
+        display: flex;
+        flex-direction: column;
+    }
+}

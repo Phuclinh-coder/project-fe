@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container-homepage{
+    margin: 0 !important;
+
+    height: auto;
+    background-image: url(../../../asset/image/background.png);
+    background-repeat:repeat-y;
+    background-size: 100%;
+    padding: 50px 80px;
+    padding: 120px 80px 50px 80px;
+}

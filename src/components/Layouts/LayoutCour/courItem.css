@@ -1,0 +1,163 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.containerCour{
+    margin: 0 !important;
+    height: auto;
+    background-image: url(../../../asset/image/CourseItem/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 120px 80px 50px 80px;
+    display: flex;
+    justify-content: space-between;
+}
+.card-post{
+    width: 100%;
+    height: 400px;
+    background-color: #fff;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 20px 20px;
+}
+.w-100{
+    height: 400px !important;
+    width: 50% !important;
+
+}
+.bodyCour{
+    width: 75%;
+    height: auto;
+    background-color: #fff;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 30px 30px;
+}
+.post-and-cour{
+    width: 22%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.postItem{
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+}
+.Title-post{
+    width: 100%;
+    height: 15%;
+    font-size: 20px;
+    font-weight: 600;
+    background: #00358D;
+    color: #fff;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 20px;
+}
+.img-post{
+    width: 120px !important ;
+    height: 80px !important;
+    border-radius: 8px;
+}
+.name-post{
+    font-size: 16px;
+    color: #212529;
+    padding-left: 12px;
+}
+/* Body Cour: */
+.slideCour{
+    width: 50%;
+    height: 360px !important;
+}
+.infoCour{
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+.btn-singin{
+    margin: 20px 0;
+}
+.teacher{
+    display: flex;
+}
+.jobtea{
+    font-size: 20px;
+    font-weight: bold;
+    color: #e7b72a;
+}
+.nametea{
+    font-size: 20px;
+    font-weight: bold;
+    color: #000;
+    padding-left: 15px;
+}
+.bonusCour{
+    margin-top: 30px;
+}
+.info{
+    margin: 20px 0;
+}
+@media (min-width: 740px) and (max-width: 1023px){
+    .containerCour{
+        flex-direction: column-reverse;
+        padding: 50px 40px;
+    }
+    .bodyCour{
+        width: 100%;
+    }
+    .card-post{
+        width: 48%;
+    }
+    .post-and-cour{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        margin-top: 20px;
+    }
+}
+@media (max-width: 740px) {
+    .containerCour{
+        flex-direction: column-reverse;
+        padding: 50px 20px;
+    }
+    .bodyCour{
+        width: 100%;
+        flex-direction: column;
+    }
+    .slideCour{
+        width: 100%;
+        height: 270px !important;
+    }
+    .mobile-size{
+        height: 270px !important;
+    }
+    .w-100{
+        height: 270px !important;
+    }
+    .infoCour{
+        width: 100%;
+    }
+    .card-post{
+        width: 100%;
+    }
+    .post-and-cour{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        margin-top: 20px;
+    }
+}

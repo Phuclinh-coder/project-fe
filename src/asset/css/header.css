@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* .container-header{
+    background-color: black;
+} */
+
+.header-top {
+  height: 40px;
+  background-color: #035aa6;
+}
+.header-top p {
+  text-align: center;
+  color: #fff;
+  line-height: 40px;
+  font-size: 18px;
+}
+.header-nav {
+  height: 90px !important;
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  position: fixed !important;
+  width: 100%;
+  z-index: 999;
+}
+
+.header-logo {
+  height: 60px;
+  width: 250px;
+  margin-right: 70px;
+}
+
+.header-toggle {
+  background-color: #fff !important;
+}
+
+.container-header {
+  margin: 0 !important;
+  display: flex;
+}
+.header-selection {
+  font-size: 22px !important;
+  margin: 0 8px;
+}
+.header-selection p {
+  color: #4153cc;
+}
+.me-auto {
+  display: flex;
+  align-items: center;
+}
+.nav-icon {
+  padding-left: 12px;
+}
+
+.header-button {
+  margin-left: 70px;
+}
+
+.button-header {
+  display: flex;
+  margin-left: 70px;
+}
+@media (min-width: 1200px) {
+  .navbar-expand-xl {
+    justify-content: space-evenly !important;
+  }
+}
+
+/* @media screen and (max-width: 1200px) {
+    .
+  } */
+.login-button-link {
+  padding: 0 !important;
+  margin: 0 4px !important;
+}
+
+.login-button {
+  border: 1px solid #000 !important;
+  border-radius: 25px !important;
+  color: rgba(0, 0, 0, 0.55) !important;
+  padding: 6px 15px !important;
+  text-decoration: none !important;
+}
+
+.login-button:hover {
+  background-color: #000 !important;
+  color: #fff !important;
+}
+.login-icon {
+  margin-right: 4px !important;
+}
+
+/* header-user */
+.header-user {
+  display: flex;
+}
+.header-user-left {
+  margin-left: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 160px;
+  border: 1px solid #000 !important;
+  border-radius: 25px !important;
+  color: rgba(0, 0, 0, 0.55) !important;
+  padding: 6px;
+  cursor: pointer;
+}
+.header-user-left:hover {
+  background-color: #ccc;
+  color: #fff !important;
+}
+.header-user .header-user-name {
+  margin: 0 0 0 6px !important;
+}
+
+.header-user-logout {
+  margin-left: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 120px;
+  border: 1px solid #000 !important;
+  border-radius: 25px !important;
+  color: rgba(0, 0, 0, 0.55) !important;
+  cursor: pointer;
+}
+.header-user-logout:hover {
+  background-color: #ccc;
+  color: #fff !important;
+}
+
+.header-user .header-logout {
+  margin: 0 !important;
+}

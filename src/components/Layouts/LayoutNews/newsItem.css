@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.containerNews{
+    margin: 0 !important;
+    width: 100%;
+    height: auto;
+    background-image: url(../../../asset/image/background.png);
+    background-repeat:no-repeat;
+    background-size: cover;
+    padding: 120px 80px 50px 80px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.mainNews{
+    flex-basis: 75%;
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px 20px;
+}
+.mainNews h2{
+    color: #245D7C;
+}
+.text-body{
+    padding: 20px;
+}
+.img-text-body{
+    width: 100%;
+    height: auto;
+    margin: 20px 0;
+}
+.mainNews span{
+    font-size: 18px;
+    line-height: 1.4;
+}
+.mainNews h4{
+    margin-top: 20px;
+}
+.sliderNews{
+    flex-basis: 20%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.navNews{
+    height: 40px;
+    padding: 0 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #000;
+    background-color: #ccc;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+.nav-left{
+    display: flex;
+    align-items: center;
+}
+.nav-time{
+    margin-right: 10px;
+}
+.nav-right{
+    display: flex;
+}
+.fab{
+    margin: 0 4px;
+}
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+    .containerNews{
+        flex-direction: column;
+    }
+    .sliderNews{
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 20px;
+    }
+}
+@media screen and (max-width: 740px) {
+    .containerNews{
+        flex-direction: column;
+        padding: 50px 10px;
+    }
+    .sliderNews{
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 20px;
+    }
+    .navNews{
+        height: 80px;
+        flex-wrap: wrap;
+        font-size: 14px;
+    }
+    .nav-right{
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .text-body{
+        padding: 0;
+    }
+}

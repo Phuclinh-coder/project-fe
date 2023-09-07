@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.modalBackground {
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.overlay {
+  background: rgba(49,49,49,0.8);
+}
+  .modalContainer {
+    width: 850px;
+    height: 500px;
+    border-radius: 12px 12px;
+    background-color: white;
+    display: flex;
+    position: relative;
+    z-index: 99;
+    box-shadow: -28px 27px 37.5px rgba(0, 0, 0, 0.53),
+     10px -19px 37.5px rgba(255, 255, 255, 0.038),
+      inset 4px -4px 8px rgb(0, 0, 0, 0.53),
+       inset -5px 5px 12px #ffffff;    
+       display: flex;
+    .btn-close{
+      position: absolute;
+      right: 7px !important;
+      top: 5px !important;
+    }
+    .img-left{
+      width: 60%;
+      height: 100%;
+      padding-bottom: 5px;
+      img{
+        height: 100% !important;
+        width: 100% !important;
+        border-radius: 12px 12px;
+      }
+    }
+    .body-right{
+      width: 40%;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      .header-info{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        padding-left: 20px;
+      }
+      h4{
+        text-align: center;
+        margin-top: 30px;
+        color: #245D7C;
+        font-weight: bold;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      }
+    }
+  }
+Form{
+  display: flex;
+  flex-direction: column;
+  border-bottom: none;
+  margin-top: 20px;
+  .size-input{
+    width: 90% !important;
+  }
+  .btn-submit{
+    background-color: #245D7C;
+    color: #ffffff;
+    height: 40px;
+    width: 120px;
+    margin-top: 10px;
+    border-radius: 12px 12px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+  }
+}
+@media (min-width: 740px) and (max-width: 1023px){
+  .modalContainer{
+    width: 90%;
+    form{
+      flex-direction: column !important;
+    }
+  }
+}
+@media (max-width: 740px){
+  .modalContainer{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    .img-left{
+      display: none;
+    }
+    .body-right{
+      width: 100%;
+      .header-info{
+        justify-content: center;
+        padding: 0;
+      }
+      h4{
+        margin: 0;
+        margin-top: 20px;
+      }
+    }
+    form{
+      flex-direction: column !important;
+    }
+  }
+}
+
+
